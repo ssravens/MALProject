@@ -23,8 +23,9 @@ Before you begin, ensure you have installed:
 1. Clone the repository to your local machine using `git clone https://github.com/ssravens/MALProject.git`.
 2. Navigate to the project directory `cd MALProject`.
 3. Install the project dependencies with `npm install`.
-4. Start the development server using `npm start`.
-5. Visit `http://localhost:3000` in your web browser to see the application.
+4. Start the backend server using `node server.js`.
+5. Start the development server using `npm start`.
+6. Visit `http://localhost:3000` in your web browser to see the application.
 
 ## Usage
 
