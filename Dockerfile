@@ -2,7 +2,7 @@
 FROM node:14-alpine as build-deps
 WORKDIR /usr/src/app
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN npm install
 COPY . ./
 RUN npm run build
 
